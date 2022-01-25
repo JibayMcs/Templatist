@@ -1,0 +1,26 @@
+{
+    "name": "jibaymcs/template",
+    "description": "Create a blade component based on a template",
+    "type": "library",
+    "keywords": ["template", "blade", "component", "commands", "laravel"],
+    "authors": [
+        {
+            "name": "JibayMcs",
+            "email": "theamateis@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Template\\": "src/Template/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Template\\TemplateServiceProvider"
+            ]
+        }
+    }
+}
