@@ -1,8 +1,8 @@
 <?php
 
-namespace Template;
+namespace Templatist;
 
-use App\Console\Commands\MakeTemplateBasedView;
+use Templatist\Console\Commands\MakeTemplateBasedView;
 use Illuminate\Support\ServiceProvider;
 
 

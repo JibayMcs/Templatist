@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Console\Commands;
+namespace Templatist\Console\Commands;
 
 use Illuminate\Console\Command;
 

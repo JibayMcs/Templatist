@@ -1,5 +1,5 @@
 {
-    "name": "jibaymcs/template",
+    "name": "jibaymcs/templatist",
     "description": "Create a blade component based on a template",
     "type": "library",
     "keywords": ["template", "blade", "component", "commands", "laravel"],
@@ -13,13 +13,13 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Template\\": "src/Template/"
+            "Templatist\\": "src/Templatist/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Template\\TemplateServiceProvider"
+                "Templatist\\TemplatistServiceProvider"
             ]
         }
     }
