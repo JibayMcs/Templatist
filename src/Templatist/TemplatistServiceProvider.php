@@ -6,7 +6,7 @@ use Illuminate\Support\ServiceProvider;
 use Templatist\Console\Commands\MakeTemplateBasedView;
 
 
-class VoyagerServiceProvider extends ServiceProvider
+class TemplatistServiceProvider extends ServiceProvider
 {
 
     /**
