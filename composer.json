@@ -10,7 +10,10 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "php": "^7.3|^7.4|^8.0",
+        "illuminate/console": "^8.75"
+    },
     "autoload": {
         "psr-4": {
             "Templatist\\": "src/Templatist/"
