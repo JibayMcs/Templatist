@@ -2,8 +2,8 @@
 
 namespace Templatist;
 
-use Templatist\Console\Commands\MakeTemplateBasedView;
 use Illuminate\Support\ServiceProvider;
+use Templatist\Console\Commands\MakeTemplateBasedView;
 
 
 class VoyagerServiceProvider extends ServiceProvider
