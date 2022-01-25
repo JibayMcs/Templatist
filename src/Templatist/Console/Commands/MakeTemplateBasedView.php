@@ -20,9 +20,6 @@ class MakeTemplateBasedView extends Command
      */
     protected $description = 'Create a custom blade view based on a template';
 
-
-    protected $files;
-
     /**
      * Create a new command instance.
      *
